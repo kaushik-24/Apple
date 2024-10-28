@@ -22,7 +22,7 @@ const ModelView = ({index, groupRef, gsapType, controlRef
       <Lights />
       <OrbitControls />
       <group ref={groupRef} name={`${index === 1} ? `}>
-      <Suspense fallback={<div>Loading</div>}>
+      <Suspense fallback="{<div>Loading</div>}">
       <Iphone />
       </Suspense>
       </group>
