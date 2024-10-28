@@ -7,6 +7,7 @@ import * as THREE from 'three';
 import { Canvas } from "@react-three/fiber";
 import { View } from "@react-three/drei";
 import { models, sizes } from "../constants";
+import { useEffect } from "react";
 
 const Model = () => {
     const [size, setsize] = useState('small');
@@ -23,6 +24,18 @@ const Model = () => {
     //models
     const small = useRef(new THREE.Group());
     const large = useRef(new THREE.Group());
+
+    const tl = gsap.timeline();
+
+    useEffect(() => {
+        if(size === 'large') {
+
+        }
+
+        if(size === 'small') {
+
+        }
+    }, [size])
 
     //rotation
     const [smallRotation, setSmallRotation] = useState(0);
