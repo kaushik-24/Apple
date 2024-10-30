@@ -1,2 +1,7 @@
-<h1>Apple website clone</h1>
-<p>Using <strong>react</strong> , <strong>tailwind</strong> and <strong>javascript</strong> to run website. For animation and 3d, <strong>gsap</strong> and <strong>three.js</strong> were used for smooth and better integration for react</p>
+<h1>iPhone clone 3D website</h1>  
+<p>Showcasing iPhone with different features and a 3D view of iphone using various programs.
+</p> 
+<p>Writing and designing website using <strong>CSSm HTML & TailWind</strong>.
+</p> <p>Making it responsive and implementing various logics using 
+  <strong>Javascript & react.</strong></p> 
+  <p><strong>Gsap && three.js</strong> which integrates easily with react were used for animation & 3D.</p>
