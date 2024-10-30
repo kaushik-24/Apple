@@ -19,6 +19,14 @@ const HowItWorks = () => {
       ease: 'power2.inOut'
     })
 
+    gsap.from('.hiw-video', {
+      scrollTrigger: {
+        trigger: '.hiw-video',
+        start: '20%bottom'
+      }
+        
+    })
+
     animateWithGsap('.g_fadeIn', {
       opacity: 1,
       y: 0,
@@ -33,7 +41,6 @@ const HowItWorks = () => {
         <div id="chip" className="flex-center w-full my-20">
           <img src={chipImg} alt="chip" width={180} height={180} />
         </div>
-
         <div className="flex flex-col items-center">
           <h2 className="hiw-title">
             A17 Pro chip.
